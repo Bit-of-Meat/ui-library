@@ -23,6 +23,7 @@
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
     "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
     "@rollup/plugin-commonjs": "^21.0.3",
     "@rollup/plugin-node-resolve": "^13.2.0",
     "@rollup/plugin-typescript": "^8.3.2",
@@ -30,6 +31,7 @@
     "@storybook/addon-essentials": "^6.4.22",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-interactions": "^6.4.22",
+    "@storybook/addon-jest": "^6.4.22",
     "@storybook/addon-links": "^6.4.22",
     "@storybook/addons": "^6.4.22",
     "@storybook/builder-webpack5": "^6.4.22",
@@ -55,9 +57,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "sass": "^1.50.0",
     "typescript": "^4.6.3",
-    "typescript-plugin-css-modules": "^3.4.0",
-    "@emotion/styled": "^11.8.1",
-    "@storybook/addon-jest": "^6.4.22"
+    "typescript-plugin-css-modules": "^3.4.0"
   },
   "peerDependencies": {
     "react": "^17.0.2",
