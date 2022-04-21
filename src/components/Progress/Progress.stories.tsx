@@ -13,6 +13,5 @@ const Template: ComponentStory<typeof Progress> = (args) => <Progress {...args} 
 
 export const Download = Template.bind({});
 Download.args = {
-  percent: 68,
-  type: ProgressType.Achievement
+  percent: 68
 };
