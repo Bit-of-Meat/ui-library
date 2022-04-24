@@ -1,0 +1,21 @@
+.bg, .fill {
+    border-radius: 4px;
+    height: 6px;
+}
+
+.bg {
+    width: 100%;
+    background-color: #292929;
+}
+
+.fill {
+    background-color: #ff5e52;
+}
+
+.handle {
+    position: relative;
+    background-color: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+}
