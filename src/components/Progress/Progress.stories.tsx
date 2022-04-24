@@ -2,10 +2,9 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 import Progress from './Progress';
-import { ProgressType } from './Progress.types';
 
 export default {
-  title: 'Bit of Meat/Progress',
+  title: 'Bit of Meat/Progress [WIP]',
   component: Progress
 } as ComponentMeta<typeof Progress>;
 
