@@ -7,4 +7,5 @@ export default styled.button`
   border-radius: 4px;
   padding: 8px 32px 10px 32px;
   letter-spacing: 0.5px;
+  cursor: pointer;
 `
