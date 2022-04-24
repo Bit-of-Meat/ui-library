@@ -1,9 +1,12 @@
 import React from "react"
+import CSSReset from "../CSSReset";
 import { ProviderProps } from './Provider.types';
-import "./Provider.module.scss";
 
 export default ({ children }: ProviderProps) => {
     return (
-        <div>{children}</div>
+        <div>
+            <CSSReset />
+            {children}
+        </div>
     )
 }
