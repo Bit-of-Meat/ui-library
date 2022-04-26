@@ -37,7 +37,13 @@ export default [
             commonjs({
                 include: 'node_modules/**'
             }),
-            typescript({ tsconfig: "./tsconfig.json" }),
+            typescript({
+                tsconfig: "./tsconfig.json",
+                exclude: [
+                    "**/*.stories.@(ts|tsx|mdx)",
+                    "**/*.test.@(ts|tsx)"
+                ]
+            }),
             postcss({
                 modules: true,
                 minimize: true,
