@@ -4,3 +4,4 @@ export { default as Dropdown } from "./Dropdown";
 export { default as Input } from "./Input";
 export { default as Progress } from "./Progress";
 export { default as Provider } from "./Provider";
+export { default as Slider } from "./Slider";
