@@ -1,7 +1,11 @@
 {
-  "name": "ui-library",
+  "name": "@bit-of-meat/ui-library",
   "version": "0.0.1",
   "description": "Bit of Meat UI React library used for launcher",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bit-of-Meat/ui-library.git"
+  },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
