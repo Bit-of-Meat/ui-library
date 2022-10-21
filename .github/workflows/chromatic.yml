@@ -1,8 +1,6 @@
 name: 'Chromatic'
 
-on:
-  release:
-    types: [created]
+on: push
 
 jobs:
   chromatic-deployment:
